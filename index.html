@@ -25,10 +25,10 @@
 
 
   <body ng-app="ionicApp">
-    
-    
+
+
     <ion-side-menus>
-        
+
         <ion-side-menu-content ng-controller="NavCtrl">
           <ion-nav-bar class="bar-positive">
             <ion-nav-back-button class="button-icon ion-arrow-left-c">
@@ -38,14 +38,14 @@
             <button class="button button-icon button-clear ion-navicon" ng-click="showMenu()">
             </button>
           </ion-nav-buttons>
-          
-          <ion-nav-buttons side="right">
+
+          <!-- <ion-nav-buttons side="right">
             <button class="button button-icon button-clear ion-ios7-gear" ng-click="showRightMenu()">
             </button>
-          </ion-nav-buttons>
+          </ion-nav-buttons> -->
           <ion-nav-view animation="slide-left-right"></ion-nav-view>
-        </ion-side-menu-content> 
-        
+        </ion-side-menu-content>
+
         <ion-side-menu side="left">
           <ion-header-bar class="bar bar-header bar-assertive">
             <h1 class="title">Left Menu</h1>
@@ -64,7 +64,7 @@
             </ul>
           </ion-content>
         </ion-side-menu>
-      
+
         <ion-side-menu side="right">
           <ion-header-bar class="bar bar-header bar-dark">
             <h1 class="title">Right Menu</h1>
@@ -80,7 +80,7 @@
             </ul>
           </ion-content>
         </ion-side-menu>
-        
+
       </ion-side-menus>
 
   </body>
