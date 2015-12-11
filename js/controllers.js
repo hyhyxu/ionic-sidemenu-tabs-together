@@ -1,4 +1,4 @@
-angular.module('ionicApp.controllers', [])
+angular.module('starter.controllers', [])
 
 .controller('NavCtrl', function($scope, $ionicSideMenuDelegate) {
   $scope.showMenu = function () {
@@ -9,4 +9,12 @@ angular.module('ionicApp.controllers', [])
   };
 })
 .controller('HomeTabCtrl', function($scope) {
+})
+
+
+
+.controller('ProcessCtrl', function($scope, Tasks) {
+
+  $scope.tasks = Tasks.all();
+
 })
